@@ -13,7 +13,7 @@ const TextInput = () => {
     <div>
       <input type='text' value={text} onChange={onChange} />
       <br />
-      Echo: {text}
+      エコー: {text}
     </div>
   );
 };

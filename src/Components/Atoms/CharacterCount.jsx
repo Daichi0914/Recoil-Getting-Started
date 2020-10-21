@@ -5,7 +5,7 @@ import { charCountState } from '../../Atoms/StoreData';
 const CharacterCount = () => {
   const count = useRecoilValue(charCountState);
 
-  return <>Character Count: {count}</>;
+  return <>文字数: {count}</>;
 };
 
 export default CharacterCount;
