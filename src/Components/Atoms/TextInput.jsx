@@ -11,6 +11,8 @@ const TextInput = () => {
 
   return (
     <div>
+      <h2>入門編 Demo</h2>
+      <p>文字を入力してください</p>
       <input type='text' value={text} onChange={onChange} />
       <br />
       エコー: {text}
